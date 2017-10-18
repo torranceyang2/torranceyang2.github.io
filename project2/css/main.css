@@ -1,0 +1,126 @@
+html,
+body,
+.container,
+.about-container {
+  /* Assets from https://github.com/kyh8/tabduke */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  font-family: 'Raleway', sans-serif;
+  overflow-y: hidden;
+}
+
+.main {
+  background-image: url("../images/side_chapel.png");
+}
+
+.about {
+  background-image: url("../images/inside_chapel.png");
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background: #e7e7e7;
+  height: 50px;
+}
+
+a {
+  padding: 15px;
+  float: right;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  border-bottom: 4px solid;
+  border-color: rgba(0, 0, 0, .3);
+}
+
+.left {
+  float: left;
+}
+
+.container {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: 475px;
+  border-radius: 0 0 2px 2px;
+  background-color: white;
+  text-align: center;
+}
+
+.card-bottom {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.profile {
+  max-width: 200px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.about-container {
+  padding-top: 100px;
+}
+
+.long-card {
+  display: table;
+  width: 1000px;
+  height: 175px;
+  border-radius: 0 0 2px 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.long-card-content {
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 0 0 2px 2px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+}
